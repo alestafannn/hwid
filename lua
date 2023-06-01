@@ -6,7 +6,7 @@ local player = game.Players.LocalPlayer
 
 local whitelistedname = false
 
-local whitelistname = {'Crazy_sg31', 'HamzaAfkEggFarm1', 'bluvkynaltaccount', 'hamza7490', 'myalzzyintheworld', 'pgpw', 'bebemalsalakmal123', 'SightTur', 'WallvahJr', '0xLarens',} -- has strings ('',"") and in the strings u put the names
+local whitelistname = {'Crazy_sg31', 'HamzaAfkEggFarm1', 'bluvkynaltaccount', 'hamza7490', 'myalzzyintheworld', 'pgpw', 'bebemalsalakmal123', 'SightTur', 'WallvahJr', '0xLarens', 'ALMUTASIMq',} -- has strings ('',"") and in the strings u put the names
 
 if table.find(whitelistname, player.Name) then
 

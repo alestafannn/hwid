@@ -1,3 +1,4 @@
+
 --gets the name and id
 
 local player = game.Players.LocalPlayer
@@ -6,7 +7,23 @@ local player = game.Players.LocalPlayer
 
 local whitelistedname = false
 
-local whitelistname = {'Crazy_sg31', 'HamzaAfkEggFarm1', 'bluvkynaltaccount', 'hamza7490', 'myalzzyintheworld', 'pgpw', 'bebemalsalakmal123', 'divineyyyyzzz', 'WallvahJr', '0xLarens', 'ALMUTASIMq', 'Merhaba121207', 'MH_BABA', 'kgfjhgyjhll', 'Yusuf_Papazyan',} -- has strings ('',"") and in the strings u put the names
+local whitelistname   = {'bluvkynaltaccount',} -- has strings ('',"") and in the strings u put the names
+
+-- Whitelist system by key
+
+local keyy            = false
+
+local keys            = {'ecekiziltacontop',} -- has strings ('',"") and in the strings u put the keys
+
+if table.find(keys, Key) then
+
+    keyy = true
+
+  else
+
+    player:Kick("Not whitelisted buy from https://discord.gg/whQgwXjJAf")
+
+  end
 
 if table.find(whitelistname, player.Name) then
 
@@ -14,6 +31,6 @@ if table.find(whitelistname, player.Name) then
 
 else
 
-  player:Kick("Not Whitelisted Athena#1433")
+  player:Kick("Not whitelisted buy from https://discord.gg/whQgwXjJAf")
 
 end

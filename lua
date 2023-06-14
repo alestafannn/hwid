@@ -7,7 +7,7 @@ local player = game.Players.LocalPlayer
 
 local whitelistedname = false
 
-local whitelistname   = {'bluvkynaltaccount',} -- has strings ('',"") and in the strings u put the names
+local whitelistname   = {'bluvkynaltaccount', 'bigturae',} -- has strings ('',"") and in the strings u put the names
 
 -- Whitelist system by key
 

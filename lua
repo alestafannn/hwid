@@ -8,15 +8,6 @@ local whitelistname = {'nixusplayer1', 'iRojat', 'iVxrqx', 'McavurmaK', 'rygango
 if table.find(whitelistname, player.Name) then
   whitelistedname = true
 else
-  player:Kick("idiot u gotta buy, yk not everythings for free alesya#5109")
+  player:Kick("idiot u gotta buy, yk not everythings for free 100010010001")
 end
 
--- Extra security for whitelist (by id)
-
-whitelistedID = false
-local whitelistid = {3237535338, 1536132292, 2033814358, 1093625234, 362464418, 1,} -- doesnt have strings ' ' or " " and only numbers for id
-if table.find(whitelistid, player.UserId) then
-  whitelistedID = true
-else
-  player:Kick("idiot u gotta buy, yk not everythings for free alesya#5109")
-end

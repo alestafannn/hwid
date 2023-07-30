@@ -4,9 +4,9 @@ local player = game.Players.LocalPlayer
 -- Whitelist system by name
 
 local whitelistedname = false
-local whitelistname = {'dragcibabapiro', 'Immo7k', 'I2xIV', 'deltaninaski', '17kLorys} -- has strings ('',"") and in the strings u put the names
+local whitelistname = {'I2xIV',} -- has strings ('',"") and in the strings u put the names
 if table.find(whitelistname, player.Name) then
   whitelistedname = true
 else
   player:Kick("idiot u gotta buy, yk not everythings for free 100010010001")
-  end
+end
